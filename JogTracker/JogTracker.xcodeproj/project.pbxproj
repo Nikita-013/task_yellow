@@ -15,6 +15,15 @@
 		9A473C8B241AC1CD00DF7E66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A473C8A241AC1CD00DF7E66 /* Assets.xcassets */; };
 		9A473C8E241AC1CD00DF7E66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A473C8C241AC1CD00DF7E66 /* LaunchScreen.storyboard */; };
 		9A473C9A241EB09800DF7E66 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A473C99241EB09800DF7E66 /* Color.swift */; };
+		9ABCFD17241F4770006C11F5 /* MenuTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABCFD16241F4770006C11F5 /* MenuTabBarController.swift */; };
+		9ABCFD19241F4926006C11F5 /* JogsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABCFD18241F4926006C11F5 /* JogsVC.swift */; };
+		9ABCFD1B241F499C006C11F5 /* AddJogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABCFD1A241F499C006C11F5 /* AddJogVC.swift */; };
+		9ABCFD1D241F558C006C11F5 /* JogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABCFD1C241F558C006C11F5 /* JogCell.swift */; };
+		9ABCFD21241F77A2006C11F5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABCFD20241F77A2006C11F5 /* User.swift */; };
+		9ABCFD23241F7FDC006C11F5 /* Jog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABCFD22241F7FDC006C11F5 /* Jog.swift */; };
+		9ABCFD25241F8A06006C11F5 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABCFD24241F8A06006C11F5 /* Time.swift */; };
+		9ABCFD28241F8FFD006C11F5 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABCFD27241F8FFD006C11F5 /* UITextField.swift */; };
+		9ABCFD2A241F904C006C11F5 /* Side.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABCFD29241F904C006C11F5 /* Side.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +37,15 @@
 		9A473C8D241AC1CD00DF7E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A473C8F241AC1CD00DF7E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A473C99241EB09800DF7E66 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		9ABCFD16241F4770006C11F5 /* MenuTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTabBarController.swift; sourceTree = "<group>"; };
+		9ABCFD18241F4926006C11F5 /* JogsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogsVC.swift; sourceTree = "<group>"; };
+		9ABCFD1A241F499C006C11F5 /* AddJogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddJogVC.swift; sourceTree = "<group>"; };
+		9ABCFD1C241F558C006C11F5 /* JogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogCell.swift; sourceTree = "<group>"; };
+		9ABCFD20241F77A2006C11F5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9ABCFD22241F7FDC006C11F5 /* Jog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jog.swift; sourceTree = "<group>"; };
+		9ABCFD24241F8A06006C11F5 /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		9ABCFD27241F8FFD006C11F5 /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		9ABCFD29241F904C006C11F5 /* Side.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Side.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +83,7 @@
 				9A473C95241AC3A100DF7E66 /* Main */,
 				9A473C97241AC3E400DF7E66 /* View */,
 				9A473C98241EB04600DF7E66 /* Model */,
+				9ABCFD26241F8FCD006C11F5 /* Utils */,
 				9A473C96241AC3BA00DF7E66 /* Resources */,
 			);
 			path = JogTracker;
@@ -91,8 +110,11 @@
 		9A473C97241AC3E400DF7E66 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				9A473C85241AC1C800DF7E66 /* LoginVC.swift */,
 				9A104714241EB29200A50D21 /* BaseVC.swift */,
+				9A473C85241AC1C800DF7E66 /* LoginVC.swift */,
+				9ABCFD16241F4770006C11F5 /* MenuTabBarController.swift */,
+				9ABCFD18241F4926006C11F5 /* JogsVC.swift */,
+				9ABCFD1A241F499C006C11F5 /* AddJogVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -102,8 +124,21 @@
 			children = (
 				9A473C99241EB09800DF7E66 /* Color.swift */,
 				9A104716241EB42900A50D21 /* Defaults.swift */,
+				9ABCFD1C241F558C006C11F5 /* JogCell.swift */,
+				9ABCFD20241F77A2006C11F5 /* User.swift */,
+				9ABCFD22241F7FDC006C11F5 /* Jog.swift */,
+				9ABCFD24241F8A06006C11F5 /* Time.swift */,
+				9ABCFD29241F904C006C11F5 /* Side.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		9ABCFD26241F8FCD006C11F5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9ABCFD27241F8FFD006C11F5 /* UITextField.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,10 +213,19 @@
 			files = (
 				9A104715241EB29200A50D21 /* BaseVC.swift in Sources */,
 				9A473C86241AC1C800DF7E66 /* LoginVC.swift in Sources */,
+				9ABCFD2A241F904C006C11F5 /* Side.swift in Sources */,
+				9ABCFD1D241F558C006C11F5 /* JogCell.swift in Sources */,
 				9A473C9A241EB09800DF7E66 /* Color.swift in Sources */,
+				9ABCFD23241F7FDC006C11F5 /* Jog.swift in Sources */,
 				9A104717241EB42900A50D21 /* Defaults.swift in Sources */,
+				9ABCFD25241F8A06006C11F5 /* Time.swift in Sources */,
 				9A473C82241AC1C800DF7E66 /* AppDelegate.swift in Sources */,
+				9ABCFD19241F4926006C11F5 /* JogsVC.swift in Sources */,
+				9ABCFD28241F8FFD006C11F5 /* UITextField.swift in Sources */,
+				9ABCFD1B241F499C006C11F5 /* AddJogVC.swift in Sources */,
+				9ABCFD17241F4770006C11F5 /* MenuTabBarController.swift in Sources */,
 				9A473C84241AC1C800DF7E66 /* SceneDelegate.swift in Sources */,
+				9ABCFD21241F77A2006C11F5 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
